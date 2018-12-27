@@ -1,10 +1,15 @@
+TO init:
+```sh
+composer install 
+```
+
 To start:
 
 ```sh
 docker-compose up
 ```
 
-For the first time, please run the following to initialize the database
+After first time start, please run:
 
 ```sh
 docker-compose run web-app php artisan migrate
